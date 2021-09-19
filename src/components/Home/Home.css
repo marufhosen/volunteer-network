@@ -1,0 +1,24 @@
+.event-container {
+  display: grid;
+  text-align: center;
+  grid-gap: 20px;
+  /* padding: 10px; */
+  width: 90%;
+  margin: auto;
+}
+
+@media (min-width: 600px) {
+  .event-container {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (min-width: 768px) {
+  .event-container {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+@media (min-width: 991px) {
+  .event-container {
+    grid-template-columns: repeat(4, auto);
+  }
+}

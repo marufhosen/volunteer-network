@@ -1,0 +1,10 @@
+.nav-item {
+  text-decoration: none;
+  margin-left: 30px;
+  color: white;
+  line-height: 2;
+}
+
+.nav-item:hover {
+  color: darkgrey;
+}
